@@ -1,7 +1,51 @@
+.header {
 
-.header{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.334);
 
-    img.logo{
-      width: 150px;
+  img.logo {
+    width: 170px;
+  }
+
+  .navbar {
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      li {
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+      }
     }
+  }
+
+  .chatIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      width: 30px;
+    }
+
+    h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 800;
+      color: white;
+    }
+  }
+
 }

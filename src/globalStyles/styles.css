@@ -14,8 +14,93 @@
 
 
 :root {
-  --primary-color: #3F1474;
-  --secondary-color: #FF864C;
-  --background-color: #F4F0F9;
-  --text-color: #8B7F9A;
+  --primary-color: #2A4D69;
+  --secondary-color: #F9A826;
+  --background-color: #F8F9FA; 
+  --text-color: #5A5A5A;
+}
+
+
+button.button {
+  padding: 12px 40px;
+  border: none;
+  outline: none;
+  border-radius: 30px !important;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #1EDBEE, #139ACC);
+  transition: all 0.8s ease-in-out;
+  color: white;
+}
+
+
+/* Gradient shift on hover */
+button.button:hover {
+  background: linear-gradient(to bottom, #139ACC, #1EDBEE);
+}
+
+/* Bubble effect */
+button.button::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.354);
+  border-radius: 50%;
+  transition: left 0.4s ease-in-out;
+}
+
+/* Move bubble to right on hover */
+button.button:hover::before {
+  left: calc(100% - 35px);
+}
+
+
+
+/* headings */
+
+h1 {
+  font-size: 60px !important;
+  font-weight: 800 !important;
+}
+
+
+h2 {
+
+  font-size: 46px !important;
+  font-weight: 700 !important;
+  color: var(--primary-color) !important;
+
+}
+
+h3 {
+  font-size: 22px !important;
+  font-weight: 800 !important;
+}
+
+p {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.color-change {
+  color: var(--secondary-color);
+}
+
+
+.cta-three__image::before {
+  content: '';
+  position: absolute;
+  top: calc(41% - 261px);
+  left: calc(50% - 261px);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(0deg, #ff5f5e 0%, #ffba07 100%);
 }

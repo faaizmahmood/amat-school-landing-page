@@ -1,0 +1,41 @@
+.aboutSoftware {
+
+    h2, p{
+        z-index: 10;
+    }
+
+    p{
+        color: var(--text-color) !important;
+    }
+
+    .appDownloadIcon{
+
+        width: 50%;
+        text-align: start;
+        cursor: pointer;
+    }
+
+
+    .aboutImg {
+        position: relative; // Ensure positioning context
+
+        img {
+            width: 100%;
+            position: relative; // Ensure it's above the pseudo-element
+            z-index: 2; // Keep image above the gradient
+        }
+
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     bottom: 30px; // Moves it below the image
+        //     left: 28%;
+        //     transform: translateX(-50%); // Centers it
+        //     width: 400px;
+        //     height: 400px;
+        //     border-radius: 50%;
+        //     background-image: linear-gradient(0deg, #ff5f5e 0%, #ffba07 100%);
+        //     z-index: 1; // Ensures it's behind the image
+        // }
+    }
+}
