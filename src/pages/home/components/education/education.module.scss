@@ -1,0 +1,22 @@
+.education {
+
+    h2,
+    p {
+        z-index: 10;
+    }
+
+    p {
+        color: var(--text-color) !important;
+    }
+
+    .aboutImg {
+        position: relative; // Ensure positioning context
+
+        img {
+            width: 100%;
+            position: relative; // Ensure it's above the pseudo-element
+            z-index: 2; // Keep image above the gradient
+        }
+
+    }
+}

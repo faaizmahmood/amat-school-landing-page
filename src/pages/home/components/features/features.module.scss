@@ -1,0 +1,89 @@
+.features {
+    background-color: var(--background-color);
+
+    p {
+        color: var(--text-color);
+        position: relative;
+        z-index: 2;
+        /* Ensures text is on top */
+    }
+
+    h3 {
+        color: var(--primary-color);
+        position: relative;
+        z-index: 2;
+        /* Ensures heading is on top */
+    }
+
+    .featuresCards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        gap: 20px;
+        padding: 20px;
+
+        .cardItem {
+            position: relative;
+            flex: 1 1 calc(33% - 20px);
+            min-width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 60px 0px rgba(45, 1, 100, 0.1);
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            overflow: hidden;
+            /* Prevents image from appearing outside the card */
+
+            img {
+                width: 30%;
+                position: relative;
+                z-index: 2;
+                /* Ensures main image is on top */
+            }
+
+            /* Hidden small image for sliding effect */
+            .cardBottomSlideImg {
+                position: absolute;
+                width: 80%;
+                bottom: 10px;
+                right: -50px;
+                opacity: 0;
+                transition: right 0.5s ease, opacity 0.5s ease;
+                z-index: 1;
+                /* Keeps it below text */
+            }
+
+            &:hover {
+                background-color: var(--primary-color);
+                color: white !important;
+                transform: scale(1.05);
+                /* Slight zoom effect */
+
+                p,
+                h3 {
+                    color: white !important;
+                }
+
+                .cardBottomSlideImg {
+                    right: 0px;
+                    /* Moves into visible position */
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .featuresCards .cardItem {
+            flex: 1 1 calc(50% - 20px);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .featuresCards .cardItem {
+            flex: 1 1 calc(100% - 20px);
+        }
+    }
+}
