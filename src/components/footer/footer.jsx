@@ -9,24 +9,24 @@ const Footer = () => {
             <div className='container'>
 
                 <div className='row mt-4'>
-                    <div className='col-4'>
+                    <div className='col-lg-4'>
                         <div className={`${styles.logoDiv}`}>
-                            <img src={logo} className={`${styles.logo}`} />
+                            <NavLink to='/'><img src={logo} className={`${styles.logo}`} /></NavLink>
 
                             <p className='mt-3'>EasySchoolin EdTech helps businesses seamlessly engage with their clientele by providing efficient tools for updates, information sharing, and targeted campaigns—making the entire process simple and hassle-free.</p>
                         </div>
                     </div>
-                    <div className='col-2'>
+                    <div className='col-lg-2'>
                         <h3>Quick Links</h3>
 
-                        <div className='mt-4'>
+                        <div className='mt-4 mt-lg-0 mt-4'>
                             <NavLink to='/terms-conditions'><p>Terms & conditions</p></NavLink>
                             <NavLink to='/privacy-policy'><p>Privacy policy</p></NavLink>
-                            <NavLink to='/refund-poli'><p>Refund policy</p></NavLink>
+                            <NavLink to='/refund-policy'><p>Refund policy</p></NavLink>
                             <NavLink to='/'><p>School ERP</p></NavLink>
                         </div>
                     </div>
-                    <div className='col-2'>
+                    <div className='col-lg-2 mt-lg-0 mt-4'>
                         <h3>Contact</h3>
 
                         <div className='mt-4'>
@@ -36,12 +36,12 @@ const Footer = () => {
                                 Islamabad, Pakistan</p>
                         </div>
                     </div>
-                    <div className='col-4'>
+                    <div className='col-lg-4 col-8 mt-lg-0 mt-4'>
                         <h3>Subscribe For Upcoming Offers</h3>
 
                         <form className={`${styles.footerForm}`} >
-                            <input type='text' placeholder='Enter Name'/>
-                            <input type='mail' placeholder='Email Address'/>
+                            <input type='text' placeholder='Enter Name' />
+                            <input type='mail' placeholder='Email Address' />
                             <button>Submit</button>
                         </form>
                     </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
 
 
-                <hr className='mt-5'/>
+                <hr className='mt-5' />
 
                 <p className='text-center'>© Copyright 2023 by EasySchoolin EdTech</p>
 

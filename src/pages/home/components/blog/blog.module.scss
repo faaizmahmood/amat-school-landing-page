@@ -4,6 +4,13 @@
 
     min-height: 450px;
 
+    a{
+        text-decoration: none;
+
+        p{
+            color: var(--text-color);
+        }
+    }
 
     .blogItem{
 

@@ -20,7 +20,7 @@ const CallToAction = () => {
                 <div className='container'>
 
                     <div className='row'>
-                        <div className='col-8'>
+                        <div className='col-lg-8'>
                             <h2>Try Our School Management System for free today &
                                 Experience Endless Possibilities</h2>
 

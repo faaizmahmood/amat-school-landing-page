@@ -21,7 +21,7 @@
     .logoDiv {
 
         .logo {
-            width: 50%;
+            width: 30%;
         }
 
         p {
@@ -39,6 +39,11 @@
 
     .footerForm {
         padding: 0px 15px;
+
+
+        @media (max-width:992px) {
+            padding: 0px;
+        }
 
         input {
             width: 100%;

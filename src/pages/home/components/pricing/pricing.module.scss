@@ -37,6 +37,11 @@
         text-align: center;
         width: calc(32% - 20px);
 
+        @media (max-width:992px) {
+            width: calc(100% - 20px);
+            margin-top: 20px;
+        }
+
         h1 {
             color: var(--secondary-color);
         }

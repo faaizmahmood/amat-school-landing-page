@@ -11,11 +11,11 @@ const AboutSoftware = () => {
                 <h2 className='text-center'>We Choose <span className='color-change'>Us</span></h2>
                 <p className='text-center'>EasySchoolin EdTech simplifies school management by offering powerful, user-friendly solutions tailored to the unique needs of educational institutions.</p>
 
-                <div className='row align-items-center' style={{ minHeight: '100vh' }}>
+                <div className='row align-items-center my-5' >
                     {/* Ensures row takes full height for vertical centering */}
 
                     {/* Left Column - Text */}
-                    <div className='col-4 d-flex align-items-center flex-column '>
+                    <div className='col-lg-4 d-flex align-items-center flex-column'>
 
                         <div>
 
@@ -60,7 +60,7 @@ const AboutSoftware = () => {
                     </div>
 
                     {/* Center Column - Image */}
-                    <div className='col-4'>
+                    <div className='col-lg-4 my-lg-0 my-5'>
                         <div className={`${styles.aboutImg}`}>
                             <motion.img
                                 src={aboutImg}
@@ -75,7 +75,7 @@ const AboutSoftware = () => {
 
 
                     {/* Right Column - Text */}
-                    <div className='col-4 d-flex align-items-center flex-column '>
+                    <div className='col-lg-4 d-flex align-items-center flex-column '>
 
                         <div>
 

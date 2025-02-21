@@ -38,11 +38,11 @@ const Header = () => {
                     <div className='row align-items-center'>
 
                         <div className='col-3'>
-                            <img src={logo} className={`${styles.logo}`} alt="Logo" />
+                            <NavLink to='/'><img src={logo} className={`${styles.logo}`} alt="Logo" /></NavLink>
                         </div>
                         <div className='col-5'>
 
-                            <nav className={`${styles.navbar} mt-3`}>
+                            <nav className={`${styles.navbar} mt-3 d-sm-block d-none`}>
                                 <ul>
                                     <NavLink to="/"><li>Home</li></NavLink>
                                     <li onClick={() => handleIdNavigation('features')}>Features</li>

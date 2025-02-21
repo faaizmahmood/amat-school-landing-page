@@ -11,7 +11,7 @@ const Demo = () => {
 
                     <div className='row mt-5'>
 
-                        <div className='col-4'>
+                        <div className='col-lg-4 mt-sm-0 mt-3'>
                             <div className={`${styles.presetTationItem}`}>
                                 <h3>View Our Software</h3>
                                 <p>Explore the core features of our school management system and how it simplifies daily operations.</p>
@@ -19,7 +19,7 @@ const Demo = () => {
                             </div>
                         </div>
 
-                        <div className='col-4'>
+                        <div className='col-lg-4 mt-sm-0 mt-3'>
                             <div className={`${styles.presetTationItem}`}>
                                 <h3>View Our Mobile App</h3>
                                 <p>See how teachers, parents, and students can stay connected with real-time updates on the go.</p>
@@ -27,7 +27,7 @@ const Demo = () => {
                             </div>
                         </div>
 
-                        <div className='col-4'>
+                        <div className='col-lg-4 mt-sm-0 mt-3'>
                             <div className={`${styles.presetTationItem}`}>
                                 <h3>View Our WhatsApp</h3>
                                 <p>Discover how WhatsApp integration streamlines communication between schools and parents effortlessly.</p>

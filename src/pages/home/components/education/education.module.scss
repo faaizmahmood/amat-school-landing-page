@@ -16,6 +16,11 @@
             width: 100%;
             position: relative; // Ensure it's above the pseudo-element
             z-index: 2; // Keep image above the gradient
+
+            @media (max-width:992px) {
+                width: 70%;
+                margin: 0px auto;
+            }
         }
 
     }

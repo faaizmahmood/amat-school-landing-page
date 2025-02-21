@@ -30,7 +30,7 @@ const featuresData = [
 
 const Features = () => {
     return (
-        <section className={`${styles.features} mt-5 py-5`} id='features'>
+        <section className={`${styles.features} mt-lg-5 mt-0 py-5`} id='features'>
             <div className='container'>
                 <h2 className='text-center'>We Providing You Best <span className='color-change'>Features</span></h2>
                 <p className='text-center'>Our free school management system / school management software manages everything starting from admission to attendance and exams to result cards & certification.</p>

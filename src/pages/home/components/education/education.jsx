@@ -1,5 +1,5 @@
 import styles from './education.module.scss'
-import educationImg from '../../../../../public/images/educationImg.png'
+import educationImg from '../../../../../public/images/educationImg.webp'
 import { motion } from "framer-motion";
 
 
@@ -9,11 +9,11 @@ const Education = () => {
     return (
         <section className={`${styles.education}`}>
             <div className='container'>
-                <div className='row align-items-center' style={{ minHeight: '100vh' }}>
+                <div className='row align-items-center my-5 py-5'>
                     {/* Ensures row takes full height for vertical centering */}
 
                     {/* Left Column - Text */}
-                    <div className='col-6 d-flex align-items-center flex-column '>
+                    <div className='col-lg-6 d-flex align-items-center flex-column '>
                         <h2>
                             How We Built a Better <span className='color-change'> Educational </span> Culture
                         </h2>
@@ -22,8 +22,8 @@ const Education = () => {
                     </div>
 
                     {/* Right Column - Image */}
-                    <div className='col-6'>
-                        <div className={`${styles.aboutImg}`}>
+                    <div className='col-lg-6'>
+                        <div className={`${styles.aboutImg} mt-5 text-center`}>
                             <motion.img
                                 src={educationImg}
                                 alt="About Image"

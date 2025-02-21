@@ -16,7 +16,7 @@
 :root {
   --primary-color: #2A4D69;
   --secondary-color: #F9A826;
-  --background-color: #F8F9FA; 
+  --background-color: #F8F9FA;
   --text-color: #5A5A5A;
 }
 
@@ -103,4 +103,39 @@ p {
   height: 500px;
   border-radius: 50%;
   background-image: linear-gradient(0deg, #ff5f5e 0%, #ffba07 100%);
+}
+
+
+/* respnsive */
+
+
+@media (max-width:576px) {
+
+
+  h1 {
+    font-size: 38px !important;
+    font-weight: 800 !important;
+  }
+
+
+  h2 {
+
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    color: var(--primary-color) !important;
+
+  }
+
+  h3 {
+    font-size: 20px !important;
+    font-weight: 800 !important;
+  }
+
+  p {
+    font-size: 16px !important;
+
+
+
+  }
+
 }

@@ -19,7 +19,7 @@ const Hero = () => {
                     <div className="row align-items-center">
 
                         {/* Left Column - Text */}
-                        <div className="col-6 d-flex flex-column justify-content-center">
+                        <div className="col-lg-6 col-12 d-flex flex-column justify-content-center">
                             <h1 className="text-white">
                                 Empowering Schools with Seamless Management Solutions
                             </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
                         </div>
 
                         {/* Right Column - Image with Animation */}
-                        <div className="col-6 mt-3">
+                        <div className="col-lg-6 col-12 mt-lg-3 mt-5">
                             <motion.img
                                 src={heroImg}
                                 alt="Hero Image"
