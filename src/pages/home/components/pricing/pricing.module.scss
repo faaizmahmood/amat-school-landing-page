@@ -11,6 +11,23 @@
         margin-top: 30px;
     }
 
+    .planToggle {
+
+        button {
+            padding: 10px 40px;
+            border: none;
+            outline: none;
+            color: white;
+            margin: 0px 10px;
+            border-radius: 30px;
+            background-color: rgba(128, 128, 128, 0.366);
+        }
+
+        .activeTab {
+            background-color: var(--primary-color);
+        }
+    }
+
     .pricingCard {
         background-color: white;
         padding: 50px 15px;

@@ -1,0 +1,38 @@
+.counter {
+    .counterItem {
+        min-height: 150px;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &.item1 {
+            background-color: #1398CB;
+        }
+
+        &.item2 {
+            background-color: #FF645C;
+        }
+
+        &.item3 {
+            background-color: #7F25B3;
+        }
+
+        &.item4 {
+            background-color: #B2E36B;
+        }
+
+
+        h2{
+            color: white !important;
+        }
+
+        h5{
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            color: white !important;
+        }
+    }
+}

@@ -1,39 +1,66 @@
 import styles from './aboutSoftware.module.scss'
-import aboutBGImg from '../../../../../public/images/aboutBg-img.png'
-import aboutImg from '../../../../../public/images/aboutImg.png'
-import appDownloadIcon from '../../../../../public/images/app-download-icon.png'
+import aboutImg from '../../../../../public/images/mobilr-app-mockup.png'
 import { motion } from "framer-motion";
-import { NavLink } from 'react-router-dom';
 
 const AboutSoftware = () => {
-    const aboutBGStyle = {
-        backgroundImage: `url(${aboutBGImg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-    };
 
     return (
-        <section className={`${styles.aboutSoftware} pt-5`} style={aboutBGStyle}>
+        <section className={`${styles.aboutSoftware} pt-5`} >
             <div className='container pt-5'>
+
+                <h2 className='text-center'>We Choose <span className='color-change'>Us</span></h2>
+                <p className='text-center'>EasySchoolin EdTech simplifies school management by offering powerful, user-friendly solutions tailored to the unique needs of educational institutions.</p>
+
                 <div className='row align-items-center' style={{ minHeight: '100vh' }}>
                     {/* Ensures row takes full height for vertical centering */}
 
                     {/* Left Column - Text */}
-                    <div className='col-6 d-flex align-items-center flex-column '>
-                        <h2>
-                        Free <span className='color-change'> Mobile App </span> for Parents, Students, and School Staff.
-                        </h2>
-
-                        <p className='mt-3'>Download our free mobile app to stay updated. One app for all—Admins, Teachers, Accountants, Management Staff, Parents, and Students.</p>
+                    <div className='col-4 d-flex align-items-center flex-column '>
 
                         <div>
-                           <NavLink to='/demo'> <img src={appDownloadIcon} className={`${styles.appDownloadIcon}`} /></NavLink>
+
+                            <div className={`${styles.featureItem} d-flex gap-3`}>
+
+                                <div>
+                                    <i className="fa-solid fa-layer-group"></i>
+                                </div>
+
+                                <div>
+                                    <h3>All-in-One Platform</h3>
+                                    <p>Manage academics, administration, and communication effortlessly from a single integrated system.</p>
+                                </div>
+
+                            </div>
+                            <div className={`${styles.featureItem} d-flex gap-3`}>
+
+                                <div>
+                                <i className="fa-solid fa-hand-pointer"></i>
+                                </div>
+
+                                <div>
+                                    <h3>User-Friendly Interface</h3>
+                                    <p>Designed for ease of use, ensuring a smooth experience for staff, students, and parents.</p>
+
+                                </div>
+                            </div>
+                            <div className={`${styles.featureItem} d-flex gap-3`}>
+
+                                <div>
+                                <i className="fa-solid fa-shield-halved"></i>
+                                </div>
+
+                                <div>
+                                    <h3>Secure & Reliable</h3>
+                                    <p>Advanced security measures safeguard your data, ensuring privacy and reliability at all times.</p>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
 
-                    {/* Right Column - Image */}
-                    <div className='col-6'>
+                    {/* Center Column - Image */}
+                    <div className='col-4'>
                         <div className={`${styles.aboutImg}`}>
                             <motion.img
                                 src={aboutImg}
@@ -45,6 +72,53 @@ const AboutSoftware = () => {
                             />
                         </div>
                     </div>
+
+
+                    {/* Right Column - Text */}
+                    <div className='col-4 d-flex align-items-center flex-column '>
+
+                        <div>
+
+                            <div className={`${styles.featureItem} d-flex gap-3`}>
+
+                                <div>
+                                <i className="fa-solid fa-sliders"></i>
+                                </div>
+
+                                <div>
+                                    <h3>Customizable Solutions</h3>
+                                    <p>Tailor features and modules to fit your school’s specific needs and requirements.</p>
+                                </div>
+
+                            </div>
+                            <div className={`${styles.featureItem} d-flex gap-3`}>
+
+                                <div>
+                                <i className="fa-solid fa-comments"></i>
+                                </div>
+
+                                <div>
+                                    <h3>Real-Time Communication</h3>
+                                    <p>Keep everyone connected with instant notifications, updates, and progress tracking.</p>
+
+                                </div>
+                            </div>
+                            <div className={`${styles.featureItem} d-flex gap-3`}>
+
+                                <div>
+                                <i className="fa-solid fa-chart-line-up"></i>
+                                </div>
+
+                                <div>
+                                    <h3>Cost-Effective & Scalable</h3>
+                                    <p>Affordable plans that grow with your institution, from small schools to multi-campus setups.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
 
                 </div>
             </div>

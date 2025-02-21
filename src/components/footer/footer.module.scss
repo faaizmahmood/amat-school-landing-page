@@ -1,0 +1,65 @@
+.footer {
+
+    background-color: var(--background-color);
+
+    p {
+        font-size: 14px !important;
+        color: var(--text-color) !important;
+    }
+
+
+    a {
+        color: var(--text-color) !important;
+        text-decoration: none !important;
+
+        p {
+            font-size: 14px !important;
+        }
+    }
+
+
+    .logoDiv {
+
+        .logo {
+            width: 50%;
+        }
+
+        p {
+            font-size: 14px !important;
+            columns: var(--text-color);
+            font-weight: 400 !important;
+        }
+    }
+
+
+    h3 {
+        color: var(--primary-color);
+    }
+
+
+    .footerForm {
+        padding: 0px 15px;
+
+        input {
+            width: 100%;
+            padding: 10px 20px;
+            background: white;
+            border: none;
+            outline: none;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: var(--primary-color);
+            border-radius: 10px;
+            color: white;
+        }
+    }
+}

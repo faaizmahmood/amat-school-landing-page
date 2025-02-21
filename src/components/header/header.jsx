@@ -48,7 +48,7 @@ const Header = () => {
                                     <li onClick={() => handleIdNavigation('features')}>Features</li>
                                     <NavLink to="/demo"><li>Demo</li></NavLink>
                                     <li onClick={() => handleIdNavigation('pricing')}>Pricing</li>
-                                    <li onClick={() => handleIdNavigation('contact')}>Contact</li>
+                                    <li onClick={() => handleIdNavigation('footer')}>Contact</li>
                                 </ul>
                             </nav>
 
