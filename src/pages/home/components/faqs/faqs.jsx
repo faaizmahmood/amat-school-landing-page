@@ -5,7 +5,7 @@ import "@mantine/core/styles.css";
 const faqData = [
     {
         question: "What features are included in the free school management system?",
-        answer: "Our free system includes student management, attendance tracking, fee management, reporting, and communication tools."
+        answer: "Our system offers a 15-day free demo that includes student management, attendance tracking, fee management, reporting, and communication tools—everything you need to streamline school operations before committing."
     },
     {
         question: "Is the school management system cloud-based?",
