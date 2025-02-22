@@ -4,10 +4,10 @@ import styles from './demo.module.scss'
 
 const Demo = () => {
 
-      useEffect(() => {
-            window.scrollTo(0, 0); // Scrolls to the top when the component is mounted
-        }, []);
- 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to the top when the component is mounted
+    }, []);
+
 
     return (
         <>
