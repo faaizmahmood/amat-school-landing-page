@@ -10,7 +10,7 @@ const RefundPolicy = () => {
 
             <section className={`${styles.RefundPolicy}`}>
                 <div className='container my-5'>
-                    <p>At Easyschoolin, accessible from http://ourschoolsoftware.com, we are committed to providing our customers with the best possible school management software experience. Our aim is to help schools efficiently manage their day-to-day operations and provide students with the best possible education. We understand that purchasing a software is a big decision and we want to make sure that our customers are fully satisfied with their purchase.</p>
+                    <p>At Easyschoolin, accessible from <a href='http://amatschool.com'>http://amatschool.com</a>, we are committed to providing our customers with the best possible school management software experience. Our aim is to help schools efficiently manage their day-to-day operations and provide students with the best possible education. We understand that purchasing a software is a big decision and we want to make sure that our customers are fully satisfied with their purchase.</p>
                     <p>If you have additional questions or require more information about our Refund Policy, do not hesitate to contact us.</p>
 
                     <h3>No Refund After 3 Days of Purchase</h3>

@@ -32,7 +32,7 @@ const Header = () => {
 
     return (
         <>
-            <header className={`${styles.header}`} style={headerStyle}>
+            <header className={`${styles.header} sticky-top`} style={headerStyle}>
                 <div className='container py-2'>
 
                     <div className='row align-items-center'>

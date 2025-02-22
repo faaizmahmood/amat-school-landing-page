@@ -30,10 +30,10 @@ const Footer = () => {
                         <h3>Contact</h3>
 
                         <div className='mt-4'>
-                            <a href='tel:+923482258263'><p>+92 348 2258263 (WhatsApp)</p></a>
-                            <a href='mailto:hello@ourschoolsoftware.com'><p>hello@ourschoolsoftware.com</p></a>
-                            <p>Park Road, F8 Markaz
-                                Islamabad, Pakistan</p>
+                            <a href='tel:+923482258263'><p>+9779812033996
+                                (Whatsapp)</p></a>
+                            <a href='mailto:hello@ourschoolsoftware.com'><p>lalitcse09020@gmail.com</p></a>
+                            <p>Kathamandu Nepal</p>
                         </div>
                     </div>
                     <div className='col-lg-4 col-8 mt-lg-0 mt-4'>

@@ -18,7 +18,7 @@ const featuresData = [
     { id: 3, title: "Multi-Campus Management", description: "Easily set up and manage multiple school campuses within a single platform.", image: card3 },
     { id: 4, title: "Multi-User Portals", description: "Provide dedicated portals for Administrators, Teachers, Parents, and Students with role-based access.", image: card4 },
     { id: 5, title: "WhatsApp Integration", description: "Send important updates, reports, and notifications directly via WhatsApp.", image: card5 },
-    { id: 6, title: "Digital Payments", description: "Accept fee payments securely through Easypaisa, JazzCash, bank transfers, and credit/debit cards.", image: card6 },
+    { id: 6, title: "Digital Payments", description: "Accept fee payments securely through esewa, khalti , Bank Transfer , Master card , Paypal", image: card6 },
     { id: 7, title: "High-Performance Servers", description: "Experience unmatched speed and reliability with our optimized server infrastructure.", image: card7 },
     { id: 8, title: "Comprehensive Accounting", description: "Simplify financial management with built-in accounting tools for budgeting, expenses, and reports.", image: card8 },
     { id: 9, title: "Biometric Attendance", description: "Ensure accurate attendance tracking for students and staff using biometric verification.", image: card9 },

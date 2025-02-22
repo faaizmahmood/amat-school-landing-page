@@ -17,7 +17,7 @@ const TermsConditions = () => {
                     {/* <h2>Terms & Conditions</h2> */}
 
                     <p>Welcome to School Management Software!</p>
-                    <p>These terms and conditions outline the rules and regulations for the use of EasySchoolin EdTech&apos;s Website, located at <a href="http://ourschoolsoftware.com">ourschoolsoftware.com</a>.</p>
+                    <p>These terms and conditions outline the rules and regulations for the use of EasySchoolin EdTech&apos;s Website, located at <a href="http://amatschool.com">http://amatschool.com</a>.</p>
                     <p>By accessing this website, we assume you accept these terms and conditions. Do not continue to use School Management Software if you do not agree to all of the terms and conditions stated on this page.</p>
 
                     <h3>Terminology</h3>

@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
             <section className={`${styles.PrivacyPolicy}`}>
 
                 <div className='container my-5'>
-                    <p>At School Management Software, accessible from http://ourschoolsoftware.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by School Management Software and how we use it.</p>
+                    <p>At School Management Software, accessible from <a href='http://amatschool.com'>http://amatschool.com</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by School Management Software and how we use it.</p>
                     <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
                     <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in School Management Software. This policy is not applicable to any information collected offline or via channels other than this website.</p>
 

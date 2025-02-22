@@ -5,7 +5,7 @@ import Loading from "../components/loading/loading";
 // Function to add a delay
 const withDelay = (importFunc) => {
     return new Promise((resolve) => {
-        setTimeout(() => resolve(importFunc()), 2000); // 2-second delay
+        setTimeout(() => resolve(importFunc()), 1000); // 2-second delay
     });
 };
 
