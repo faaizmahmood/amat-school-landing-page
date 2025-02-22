@@ -1,9 +1,14 @@
 import { RiseLoader } from 'react-spinners'
 import styles from './loading.module.scss'
 import loadingBG from '../../../public/images/loadingBG.png'
+import { useEffect } from 'react';
 
 
 const Loading = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to the top when the component is mounted
+    }, []);
 
     const LoadingBGStyle = {
         backgroundImage: `url(${loadingBG})`,
