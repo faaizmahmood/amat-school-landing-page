@@ -1,7 +1,7 @@
 import AboutSoftware from './components/aboutSoftware/aboutSoftware'
 import Blog from './components/blog/blog'
 import CallToAction from './components/callToAction/callToAction'
-import Counter from './components/counter/counter'
+// import Counter from './components/counter/counter'
 import Education from './components/education/education'
 import Faqs from './components/faqs/faqs'
 import Features from './components/features/features'
