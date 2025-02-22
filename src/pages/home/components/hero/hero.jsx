@@ -23,7 +23,7 @@ const Hero = () => {
                             <h1 className="text-white">
                                 Empowering Schools with Seamless Management Solutions
                             </h1>
-                            <p className='mt-3 text-white'>EasySchoolin transforms how schools operate by streamlining communication, automating administrative tasks, and enhancing engagement for students, parents, and staff. From attendance tracking to fee management and real-time updates, manage everything effortlessly — all in one platform.</p>
+                            <p className='mt-3 text-white'>Amat School transforms how schools operate by streamlining communication, automating administrative tasks, and enhancing engagement for students, parents, and staff. From attendance tracking to fee management and real-time updates, manage everything effortlessly — all in one platform.</p>
 
                             <div className='text-start'>
                                 <button className='button'>Watch Demo</button>

@@ -9,7 +9,7 @@ const AboutSoftware = () => {
             <div className='container pt-5'>
 
                 <h2 className='text-center'>We Choose <span className='color-change'>Us</span></h2>
-                <p className='text-center'>EasySchoolin EdTech simplifies school management by offering powerful, user-friendly solutions tailored to the unique needs of educational institutions.</p>
+                <p className='text-center'>Amat School simplifies school management by offering powerful, user-friendly solutions tailored to the unique needs of educational institutions.</p>
 
                 <div className='row align-items-center my-5' >
                     {/* Ensures row takes full height for vertical centering */}

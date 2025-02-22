@@ -17,7 +17,7 @@ const TermsConditions = () => {
                     {/* <h2>Terms & Conditions</h2> */}
 
                     <p>Welcome to School Management Software!</p>
-                    <p>These terms and conditions outline the rules and regulations for the use of EasySchoolin EdTech&apos;s Website, located at <a href="http://amatschool.com">http://amatschool.com</a>.</p>
+                    <p>These terms and conditions outline the rules and regulations for the use of Amat School&apos;s Website, located at <a href="http://amatschool.com">http://amatschool.com</a>.</p>
                     <p>By accessing this website, we assume you accept these terms and conditions. Do not continue to use School Management Software if you do not agree to all of the terms and conditions stated on this page.</p>
 
                     <h3>Terminology</h3>
@@ -29,10 +29,10 @@ const TermsConditions = () => {
                     </ul>
 
                     <h3>Cookies</h3>
-                    <p>We employ the use of cookies. By accessing School Management Software, you agree to use cookies in accordance with EasySchoolin EdTech’s Privacy Policy.</p>
+                    <p>We employ the use of cookies. By accessing School Management Software, you agree to use cookies in accordance with Amat School’s Privacy Policy.</p>
 
                     <h3>License</h3>
-                    <p>Unless otherwise stated, EasySchoolin EdTech and/or its licensors own the intellectual property rights for all material on School Management Software. All rights are reserved. You may access this for your own personal use subject to restrictions set in these terms.</p>
+                    <p>Unless otherwise stated, Amat School and/or its licensors own the intellectual property rights for all material on School Management Software. All rights are reserved. You may access this for your own personal use subject to restrictions set in these terms.</p>
 
                     <p><strong>You must not:</strong></p>
                     <ul>
@@ -43,7 +43,7 @@ const TermsConditions = () => {
                     </ul>
 
                     <h3>Comments</h3>
-                    <p>Parts of this website allow users to post and exchange opinions. EasySchoolin EdTech does not filter or review comments before they appear on the website. Comments reflect the views of the person posting them.</p>
+                    <p>Parts of this website allow users to post and exchange opinions. Amat School does not filter or review comments before they appear on the website. Comments reflect the views of the person posting them.</p>
                     <p>We reserve the right to remove comments considered inappropriate, offensive, or in breach of these Terms and Conditions.</p>
 
                     <h3>Hyperlinking to Our Content</h3>

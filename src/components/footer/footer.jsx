@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className={`${styles.logoDiv}`}>
                             <NavLink to='/'><img src={logo} className={`${styles.logo}`} /></NavLink>
 
-                            <p className='mt-3'>EasySchoolin EdTech helps businesses seamlessly engage with their clientele by providing efficient tools for updates, information sharing, and targeted campaigns—making the entire process simple and hassle-free.</p>
+                            <p className='mt-3'>Amat School helps businesses seamlessly engage with their clientele by providing efficient tools for updates, information sharing, and targeted campaigns—making the entire process simple and hassle-free.</p>
                         </div>
                     </div>
                     <div className='col-lg-2'>
@@ -52,7 +52,7 @@ const Footer = () => {
 
                 <hr className='mt-5' />
 
-                <p className='text-center'>© Copyright 2023 by EasySchoolin EdTech</p>
+                <p className='text-center'>@copyright 2025 by amatschool.com</p>
 
             </div>
 

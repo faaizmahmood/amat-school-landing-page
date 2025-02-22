@@ -21,7 +21,7 @@ const Home = () => {
             <Pricing />
             <Faqs />
             <Blog/>
-            <Counter/>
+            {/* <Counter/> */}
             <CallToAction/>
         </section>
     )
